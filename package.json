@@ -1,8 +1,8 @@
-{
+﻿{
   "name": "aggregate-search-panel",
   "version": "1.0.5",
-  "private": true,
-  "description": "Edge 扩展：聚合多站点搜索、扫码登录面板与会话过期提醒",
+  "private": true,`n  "license": "MIT",
+  "description": "Edge 鎵╁睍锛氳仛鍚堝绔欑偣鎼滅储銆佹壂鐮佺櫥褰曢潰鏉夸笌浼氳瘽杩囨湡鎻愰啋",
   "type": "module",
   "scripts": {
     "build": "node build.mjs",
@@ -28,3 +28,4 @@
     "vitest": "^2.1.8"
   }
 }
+
