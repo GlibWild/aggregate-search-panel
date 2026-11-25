@@ -1,0 +1,30 @@
+{
+  "name": "aggregate-search-panel",
+  "version": "1.0.5",
+  "private": true,
+  "description": "Edge 扩展：聚合多站点搜索、扫码登录面板与会话过期提醒",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "watch": "node build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "node scripts/smoke-test.mjs",
+    "verify": "npm run typecheck && npm run test && npm run build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.287",
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "esbuild": "^0.24.2",
+    "happy-dom": "^21.0.4",
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8"
+  }
+}
